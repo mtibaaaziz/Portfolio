@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../mediaqueries.css" />
+
+</head>
+<body>
+    
+  <section id="projects">
+    <p class="section__text__p1">Parcourez Mes Projets Récents</p>
+    <h1 class="title">Projets</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+           
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="../assets/project-1.png" alt="Projet 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Projet Un</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="openPopup('popup1')">Voir Détails</button>
+                </div>
+            </div>
+
+          
+            <div id="popup1" class="popup">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup('popup1')">&times;</span>
+                    <h3>Site web Ecomerse</h3>
+                    <p>Ce projet est une application web développée en utilisant <strong>LARVELHTML, CSS et JavaScript</strong>.</p>
+                    <p>Outils : Visual Studio Code, GitHub, Bootstrap.</p>
+                </div>
+            </div>
+
+            
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="../assets/project-2.png" alt="Projet 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Projet Deux</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="openPopup('popup2')">Voir Détails</button>
+                </div>
+            </div>
+
+           
+            <div id="popup2" class="popup">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup('popup2')">&times;</span>
+                    <h3>GESTION DES TACHES</h3>
+                    <p> Développement d'une application de gestion des tâches pour les employés et managers :
+                        
+                           Fonctionnalités principales : création de tâches, attribution aux employés, suivi de progression et notifications.</li>
+                            Conception d'une architecture RESTful sécurisée avec Spring Boot.
+                            Développement d'une interface utilisateur dynamique et intuitive avec Angular.
+                        
+                    
+    
+                    <p><strong> Spring Boot, Angular,  MySQL, GitHub.</strong></p>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="../assets/project-3.jpg" alt="Projet 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Projet Trois</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="openPopup('popup3')">Voir Détails</button>
+                </div>
+            </div>
+            <div id="popup3" class="popup">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup('popup3')">&times;</span>
+                    <h3>Projet devloppement d un jeu</h3>
+                    <p>Création d'un jeu vidéo 2D avec <strong>Unity et C#</strong>.</p>
+                    <p>Outils : Unity, Blender, C#, Photoshop.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="../assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+</section>
+      <div class="return-button">
+        <a href="../index.html" class="btn">Back to home</a>
+       
+        <footer>
+            <section id="contact">
+              <p class="section__text__p1">Get in Touch</p>
+              <h1 class="title">Contact Me</h1>
+              <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                  <img src="../assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                  <p><a href="mailto:azizmtibaa43@gmail.com">azizmtibaa43@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                  <img src="../assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                  <p><a href="https://www.linkedin.com/in/vikash-kumar-14782823b/">LinkedIn</a></p>
+                </div>
+              </div>
+              <img src="../assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+            </section>
+        </footer>
+    <script src="../script.js"></script>
+    
+</body>
+</html>
